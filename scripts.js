@@ -533,4 +533,3 @@ truncate("Hello World!", 20);*/
 }
 
 console.log(extractCurrencyValue("$120"));*/
-//some code for example
