@@ -544,3 +544,14 @@ alert(styles.shift());
 
 styles.unshift("Рэп", "Рэгги");*/
 
+function sumInput() {
+  let num, sum, list = [];
+
+  while(isFinite(num)) {
+    num = prompt('?',0);
+    list.push(num);
+  }
+
+  if (num = null || 0) return null;
+
+}
