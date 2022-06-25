@@ -568,3 +568,18 @@ styles.unshift("Рэп", "Рэгги");*/
 
 sumInput();*/
 
+function getMaxSubSum(list) {
+  let maxSum = 0,
+    timeMaxSum = 0;
+
+  for (let item of list) {
+    timeMaxSum += item;
+    maxSum = Math.max(maxSum, timeMaxSum);
+    if (timeMaxSum < 0) timeMaxSum = 0;
+  }
+  console.log(maxSum);
+
+  return maxSum;
+}
+
+getMaxSubSum([-1, 2, 3, -9]);
