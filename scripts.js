@@ -545,16 +545,20 @@ alert(styles.shift());
 styles.unshift("Рэп", "Рэгги");*/
 
 function sumInput() {
-  let num, sum, list = [];
+  let num,
+    sum,
+    list = [];
 
   do {
-    num = +prompt('?',0);
+    num = +prompt("?", 0);
     list.push(num);
-    console.log(list);
-  } while(isFinite(num));
+  } while (isFinite(num));
 
-  if (num = null || 0) return null;
+  list.pop();
 
+  console.log(list);
+
+  if ((num = null || 0)) return null;
 }
 
 sumInput();
