@@ -547,11 +547,14 @@ styles.unshift("Рэп", "Рэгги");*/
 function sumInput() {
   let num, sum, list = [];
 
-  while(isFinite(num)) {
-    num = prompt('?',0);
+  do {
+    num = +prompt('?',0);
     list.push(num);
-  }
+    console.log(list);
+  } while(isFinite(num));
 
   if (num = null || 0) return null;
 
 }
+
+sumInput();
