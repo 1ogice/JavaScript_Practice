@@ -550,7 +550,7 @@ function sumInput() {
     list = [];
 
   do {
-    num = +prompt("?", 0);
+    num = +prompt("What is your number?", 0);
     list.push(num);
   } while (isFinite(num));
 
