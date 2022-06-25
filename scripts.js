@@ -544,7 +544,7 @@ alert(styles.shift());
 
 styles.unshift("Рэп", "Рэгги");*/
 
-function sumInput() {
+/*function sumInput() {
   let num,
     sum,
     list = [];
@@ -566,4 +566,5 @@ function sumInput() {
   return sum;
 }
 
-sumInput();
+sumInput();*/
+
