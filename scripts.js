@@ -555,10 +555,15 @@ function sumInput() {
   } while (isFinite(num));
 
   list.pop();
-
-  console.log(list);
+  list.push(0);
 
   if ((num = null || 0)) return null;
+
+  for (let item of list) {
+    sum = list[item] + list[item + 1];
+  }
+  console.log(sum);
+  return sum;
 }
 
 sumInput();
