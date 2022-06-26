@@ -568,7 +568,7 @@ styles.unshift("Рэп", "Рэгги");*/
 
 sumInput();*/
 
-function getMaxSubSum(list) {
+/*function getMaxSubSum(list) {
   let maxSum = 0,
     timeMaxSum = 0;
 
@@ -582,4 +582,15 @@ function getMaxSubSum(list) {
   return maxSum;
 }
 
-getMaxSubSum([-1, 2, 3, -9]);
+getMaxSubSum([-1, 2, 3, -9]);*/
+
+function camelize(str) {
+  str.split("");
+  
+  let noneSymbol = str.indexOf('-');
+
+  str.splice(noneSymbol, 0);
+}
+console.log(camelize("background-color"));
+console.log(camelize("list-style-image"));
+console.log(camelize("-webkit-transition"));
