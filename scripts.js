@@ -603,3 +603,18 @@ getMaxSubSum([-1, 2, 3, -9]);*/
 console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
 console.log(camelize("-webkit-transition"));*/
+
+let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function filterRange(arr, a, b) {
+  let newArray = arr.map(function adding(currentValue) {
+    if (currentValue > a && currentValue < b) {
+      return currentValue;
+    }
+  });
+  //console.log(list);
+  console.log(newArray);
+  return newArray;
+}
+
+filterRange(list, 2, 8);
