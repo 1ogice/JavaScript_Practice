@@ -604,7 +604,7 @@ console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
 console.log(camelize("-webkit-transition"));*/
 
-let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+/*let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function filterRange(arr, a, b) {
   let newArray = arr.map(function adding(currentValue) {
@@ -618,4 +618,4 @@ function filterRange(arr, a, b) {
   return newArray;
 }
 console.log(list);
-console.log(filterRange(list, 5, 8));
+console.log(filterRange(list, 5, 8));*/
