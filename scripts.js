@@ -612,9 +612,10 @@ function filterRange(arr, a, b) {
       return currentValue;
     }
   });
-  //console.log(list);
-  console.log(newArray);
+
+  newArray = newArray.filter((index) => index !== undefined);
+
   return newArray;
 }
-
-filterRange(list, 2, 8);
+console.log(list);
+console.log(filterRange(list, 5, 8));
