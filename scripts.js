@@ -619,3 +619,11 @@ function filterRange(arr, a, b) {
 }
 console.log(list);
 console.log(filterRange(list, 5, 8));*/
+
+/*let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function filterRangeOnPlace(arr, a, b) {
+  return arr.filter((index) => a < index && index < b);
+}
+
+console.log(filterRangeOnPlace(list, 3, 7));*/
