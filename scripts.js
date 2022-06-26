@@ -585,11 +585,16 @@ sumInput();*/
 getMaxSubSum([-1, 2, 3, -9]);*/
 
 function camelize(str) {
-  str.split("");
-  
-  let noneSymbol = str.indexOf('-');
+  let arr = str.split("");
+  // console.log(arr);
 
-  str.splice(noneSymbol, 0);
+  let noneSymbol = arr.indexOf("-");
+
+  if (noneSymbol !== -1) {
+    arr.splice(noneSymbol, noneSymbol + 1);
+  }
+
+  return arr;
 }
 console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
