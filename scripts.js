@@ -584,31 +584,22 @@ sumInput();*/
 
 getMaxSubSum([-1, 2, 3, -9]);*/
 
-/*function camelize(str) {
+function camelize(str) {
   let arr = str.split("");
-  // console.log(arr);
 
-  let noneSymbol = arr.indexOf("-");
+  arr.forEach((item, index, array) => {
+    index = array.indexOf("-");
 
-  if (noneSymbol !== -1) {
-    arr.splice(noneSymbol, noneSymbol + 1);
-  }
+    if (item == "-") {
+      array.splice(index, 2, array[index + 1].toUpperCase());
+    }
+  });
+
+  arr = arr.join("");
 
   return arr;
-}*/
+}
 
-/*console.log(camelize("background-color"));
+console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
-console.log(camelize("-webkit-transition"));*/
-
-let someString = "list-style-image".split("");
-console.log(someString);
-someString.forEach((item) => {
-  let elem = someString.indexOf("-");
-
-  if (item == "-") {
-    someString.splice(elem, 1);
-  }
-});
-
-console.log(someString);
+console.log(camelize("-webkit-transition"));
