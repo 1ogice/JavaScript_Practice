@@ -584,7 +584,7 @@ sumInput();*/
 
 getMaxSubSum([-1, 2, 3, -9]);*/
 
-function camelize(str) {
+/*function camelize(str) {
   let arr = str.split("");
 
   arr.forEach((item, index, array) => {
@@ -602,4 +602,4 @@ function camelize(str) {
 
 console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
-console.log(camelize("-webkit-transition"));
+console.log(camelize("-webkit-transition"));*/
