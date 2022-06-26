@@ -584,7 +584,7 @@ sumInput();*/
 
 getMaxSubSum([-1, 2, 3, -9]);*/
 
-function camelize(str) {
+/*function camelize(str) {
   let arr = str.split("");
   // console.log(arr);
 
@@ -595,7 +595,20 @@ function camelize(str) {
   }
 
   return arr;
-}
-console.log(camelize("background-color"));
+}*/
+
+/*console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
-console.log(camelize("-webkit-transition"));
+console.log(camelize("-webkit-transition"));*/
+
+let someString = "list-style-image".split("");
+console.log(someString);
+someString.forEach((item) => {
+  let elem = someString.indexOf("-");
+
+  if (item == "-") {
+    someString.splice(elem, 1);
+  }
+});
+
+console.log(someString);
