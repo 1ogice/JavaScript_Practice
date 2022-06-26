@@ -630,3 +630,15 @@ console.log(filterRangeOnPlace(list, 3, 7));*/
 
 /*let arr = [5, 2, 1, -10, 8];
 console.log(arr.sort((a, b) => b - a));*/
+
+/*let array = ["HTML", "JavaScript", "CSS"];
+console.log(array);
+
+function copySorted(arr) {
+  let clone = arr.slice(0);
+
+  return clone.sort();
+}
+
+console.log(copySorted(array));
+console.log(array);*/
