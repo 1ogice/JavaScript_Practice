@@ -687,3 +687,10 @@ console.log(array);*/
 
 console.log(calculator.calculate("10 + 5"));*/
 
+/*let vasya = { name: "Вася", age: 25 },
+  petya = { name: "Петя", age: 30 },
+  masha = { name: "Маша", age: 28 },
+  users = [vasya, petya, masha];
+
+let names = users.map((item) => item.name);*/
+
