@@ -643,12 +643,19 @@ function copySorted(arr) {
 console.log(copySorted(array));
 console.log(array);*/
 
-let calculator = {
+/*let calculator = {
   calculate: (str) => {
     let newStr = str.split(" ");
 
     newStr.map(function (item, index, arr) {
-      if (typeof arr[index] == "string" && arr[index] !== "+") {
+      if (
+        typeof arr[index] == "string" &&
+        arr[index] !== "+" &&
+        arr[index] !== "-" &&
+        arr[index] !== "*" &&
+        arr[index] !== "/" &&
+        arr[index] !== "**"
+      ) {
         let i = parseInt(item);
 
         arr.splice(index, 1, i);
@@ -664,9 +671,19 @@ let calculator = {
       case "-":
         result = newStr[0] - newStr[2];
         break;
+      case "*":
+        result = newStr[0] * newStr[2];
+        break;
+      case "/":
+        result = newStr[0] / newStr[2];
+        break;
+      case "**":
+        result = newStr[0] ** newStr[2];
+        break;
     }
     return result;
   },
 };
 
-console.log(calculator.calculate("10 + 5"));
+console.log(calculator.calculate("10 + 5"));*/
+
