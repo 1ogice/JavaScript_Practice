@@ -642,3 +642,27 @@ function copySorted(arr) {
 
 console.log(copySorted(array));
 console.log(array);*/
+
+let calculator = {
+  calculate: (str) => {
+    let newStr = str.split(" ");
+    //console.log(newStr);
+
+    newStr.map(function (item, index, arr) {
+      if (typeof arr[index] == "string") {
+        let i = parseInt(item);
+
+        arr.splice(index, 1, i);
+
+        console.log(arr);
+      }
+      let j = arr.findIndex((elem) => isNaN(elem));
+
+      console.log(j);
+    });
+  },
+};
+
+calculator.calculate("5 + 5");
+
+
