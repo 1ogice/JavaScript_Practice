@@ -664,5 +664,3 @@ let calculator = {
 };
 
 calculator.calculate("5 + 5");
-
-
