@@ -646,21 +646,27 @@ console.log(array);*/
 let calculator = {
   calculate: (str) => {
     let newStr = str.split(" ");
-    //console.log(newStr);
 
     newStr.map(function (item, index, arr) {
-      if (typeof arr[index] == "string") {
+      if (typeof arr[index] == "string" && arr[index] !== "+") {
         let i = parseInt(item);
 
         arr.splice(index, 1, i);
-
-        console.log(arr);
       }
-      let j = arr.findIndex((elem) => isNaN(elem));
-
-      console.log(j);
     });
+    let result,
+      sign = newStr[1];
+
+    switch (sign) {
+      case "+":
+        result = newStr[0] + newStr[2];
+        break;
+      case "-":
+        result = newStr[0] - newStr[2];
+        break;
+    }
+    return result;
   },
 };
 
-calculator.calculate("5 + 5");
+console.log(calculator.calculate("10 + 5"));
