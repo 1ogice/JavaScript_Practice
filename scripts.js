@@ -584,3 +584,24 @@ sumInput();*/
 
 getMaxSubSum([-1, 2, 3, -9]);*/
 
+/*function camelize(str) {
+  let newStr = str.split("");
+
+  newStr.forEach((item, index, array) => {
+    let searchedIndex = newStr.indexOf("-"),
+      upperLetter = searchedIndex + 1;
+
+    if (item == "-") {
+      newStr.splice(upperLetter, 1, array[upperLetter].toUpperCase());
+      newStr.splice(searchedIndex, 1);
+    }
+    return newStr;
+  });
+
+  return newStr.join("");
+}
+
+console.log(camelize("background-color"));
+console.log(camelize("list-style-image"));
+console.log(camelize("-webkit-transition"));*/
+
