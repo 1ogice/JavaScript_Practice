@@ -645,3 +645,16 @@ function sorted(arr) {
 
 console.log(sorted(array));*/
 
+/*let oldArray = ["HTML", "JavaScript", "CSS"];
+
+function copySorted(arr) {
+  let sorted = arr.slice(0);
+
+  sorted.sort();
+
+  return sorted;
+}
+
+console.log(copySorted(oldArray));
+console.log(oldArray);*/
+
