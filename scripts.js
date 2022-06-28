@@ -693,5 +693,3 @@ console.log(calculator.calculate("10 + 5"));*/
   users = [vasya, petya, masha];
 
 let names = users.map((item) => item.name);*/
-
-//test
