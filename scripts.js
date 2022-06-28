@@ -605,3 +605,17 @@ console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
 console.log(camelize("-webkit-transition"));*/
 
+let newArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function filterRange(arr, a, b) {
+  let lastArray = arr.map(function (item, index, array) {
+    if (item >= a && item <= b) {
+      return item;
+    }
+  });
+  lastArray = lastArray.filter(Boolean);
+
+  return lastArray;
+}
+
+console.log(filterRange(newArray, 3, 8));
