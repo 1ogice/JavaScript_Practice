@@ -605,7 +605,7 @@ console.log(camelize("background-color"));
 console.log(camelize("list-style-image"));
 console.log(camelize("-webkit-transition"));*/
 
-let newArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+/*let newArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function filterRange(arr, a, b) {
   let lastArray = arr.map(function (item, index, array) {
@@ -618,4 +618,19 @@ function filterRange(arr, a, b) {
   return lastArray;
 }
 
-console.log(filterRange(newArray, 3, 8));
+console.log(filterRange(newArray, 3, 8));*/
+
+/*let newArray = [5, 3, 8, 1];
+
+function filterRangeOnPlace(arr, a, b) {
+  newArray.forEach(function (item, index, array) {
+    console.log(newArray);
+    if (!(item >= a && item <= b)) {
+      array.splice(index, 1);
+    }
+  });
+
+  return newArray;
+}
+
+console.log(filterRangeOnPlace(newArray, 1, 4));*/
