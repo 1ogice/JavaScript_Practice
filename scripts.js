@@ -634,3 +634,14 @@ function filterRangeOnPlace(arr, a, b) {
 }
 
 console.log(filterRangeOnPlace(newArray, 1, 4));*/
+
+/*let array = [5, 2, 1, -10, 8];
+
+function sorted(arr) {
+  arr.sort((a, b) => b - a);
+
+  return arr;
+}
+
+console.log(sorted(array));*/
+
