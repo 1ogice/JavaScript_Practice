@@ -742,3 +742,17 @@ let usersMapped = users.map(function (item, index, array) {
 
   console.log(item);
 });*/
+
+/*let vasya = { name: "Вася", age: 25 },
+  petya = { name: "Петя", age: 30 },
+  masha = { name: "Маша", age: 28 };
+
+let list = [vasya, petya, masha];
+
+function sortByAge(arr) {
+  let newArray = arr.sort((a, b) => a.age - b.age);
+
+  return newArray;
+}
+
+console.log(sortByAge(list));*/
