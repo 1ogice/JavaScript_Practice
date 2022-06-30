@@ -756,3 +756,13 @@ function sortByAge(arr) {
 }
 
 console.log(sortByAge(list));*/
+
+/*let list = [1, 2, 3];
+
+function shuffle(arr) {
+  let newArr = arr.sort(() => Math.random() - 0.5);
+
+  return newArr;
+}
+
+console.log(shuffle(list));*/
