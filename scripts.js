@@ -715,3 +715,14 @@ console.log(oldArray);*/
 
 console.log(calculator.calculate("10 + 4"));*/
 
+/*let vasya = { name: "Вася", age: 25 },
+  petya = { name: "Петя", age: 30 },
+  masha = { name: "Маша", age: 28 };
+
+let users = [vasya, petya, masha];
+
+let names = users.map(function (item, index, array) {
+  return array[index].name;
+});
+
+console.log(names);*/
