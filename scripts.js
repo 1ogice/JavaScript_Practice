@@ -726,3 +726,19 @@ let names = users.map(function (item, index, array) {
 });
 
 console.log(names);*/
+
+/*let vasya = { name: "Вася", surname: "Пупкин", id: 1 },
+  petya = { name: "Петя", surname: "Иванов", id: 2 },
+  masha = { name: "Маша", surname: "Петрова", id: 3 };
+
+let users = [vasya, petya, masha];
+
+let usersMapped = users.map(function (item, index, array) {
+  let fullname = `${array[index].name} ${array[index].surname}`;
+
+  item.name = fullname;
+
+  delete array[index].surname;
+
+  console.log(item);
+});*/
