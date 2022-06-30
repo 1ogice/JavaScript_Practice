@@ -658,3 +658,60 @@ function copySorted(arr) {
 console.log(copySorted(oldArray));
 console.log(oldArray);*/
 
+/*let calculator = {
+  calculate: (str) => {
+    str = str.split(" ");
+
+    str = str.map(function (item, index, array) {
+      if (
+        typeof item == "string" &&
+        item !== "+" &&
+        item !== "-" &&
+        item !== "*" &&
+        item !== "/"
+      ) {
+        item = parseInt(item);
+
+        array.splice(index, 1, item);
+      }
+      return item;
+    });
+
+    let result;
+
+    if (str.includes("+")) {
+      str = str.filter(function (element) {
+        return element !== "+";
+      });
+
+      result = str[0] + str[1];
+    } else if (str.includes("-")) {
+      str = str.filter(function (element) {
+        return element !== "-";
+      });
+
+      result = str[0] - str[1];
+    } else if (str.includes("*")) {
+      str = str.filter(function (element) {
+        return element !== "*";
+      });
+
+      result = str[0] * str[1];
+    } else if (str.includes("/")) {
+      str = str.filter(function (element) {
+        return element !== "/";
+      });
+
+      result = str[0] / str[1];
+    }
+
+    if (str.length > 2) {
+      str.splice(0);
+      result = "too much numbers";
+    }
+    return result;
+  },
+};
+
+console.log(calculator.calculate("10 + 4"));*/
+
