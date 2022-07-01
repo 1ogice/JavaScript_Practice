@@ -766,3 +766,26 @@ function shuffle(arr) {
 }
 
 console.log(shuffle(list));*/
+
+/*let vasya = { name: "Вася", age: 25 },
+  petya = { name: "Петя", age: 30 },
+  masha = { name: "Маша", age: 29 };
+
+let list = [vasya, petya, masha];
+
+function getAverageAge(arr) {
+  let newArr = arr.map((item) => {
+    return item.age;
+  });
+
+  let initialValue = 0,
+    result = newArr.reduce(
+      (previousValue, currentValue) => previousValue + currentValue,
+      initialValue
+    );
+
+  return result / newArr.length;
+}
+
+console.log(getAverageAge(list));*/
+
