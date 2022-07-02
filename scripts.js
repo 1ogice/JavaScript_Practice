@@ -789,7 +789,7 @@ function getAverageAge(arr) {
 
 console.log(getAverageAge(list));*/
 
-let list = [
+/*let list = [
   "alpha",
   "alpha",
   "bravo",
@@ -812,4 +812,23 @@ function unique(arr) {
   return result;
 }
 
-console.log(unique(list));
+console.log(unique(list));*/
+
+/*let list = [
+  "alpha",
+  "alpha",
+  "bravo",
+  "bravo",
+  "bravo",
+  "alpha",
+  "alpha",
+  "delta",
+];
+
+function unique(arr) {
+  let set = new Set(arr);
+
+  return Array.from(set);
+}
+
+console.log(unique(list));*/
