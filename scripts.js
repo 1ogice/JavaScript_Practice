@@ -825,25 +825,31 @@ console.log(unique(list));*/
   "delta",
 ];
 
-function unique(arr) {
-  let set = new Set(arr);
+console.log(list);
 
-  return Array.from(set);
-}
+let set = new Set(list);
 
-console.log(unique(list));*/
+console.log(set);*/
 
-/*function aclean(arr) {
-  let map = new Map();
+/*let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 
+let map = new Map();
+
+function aclean(arr) {
   for (let word of arr) {
-    let sorted = word.toLowerCase().split("").sort().join("");
-
+    let sorted = word.split("").sort().join("");
     map.set(sorted, word);
   }
-  console.log(map);
+
   return Array.from(map.values());
 }
 
-let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 console.log(aclean(arr));*/
+
+/*let map = new Map();
+map.set("name", "John");
+let keys = map.keys();
+keys = Array.from(keys);
+keys.push("more");
+console.log(keys);*/
+
