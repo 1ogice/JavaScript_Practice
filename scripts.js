@@ -871,3 +871,15 @@ function sum(obj) {
 }
 
 console.log(sum(salaries));*/
+
+/*let user = {
+  name: "John",
+  age: 30,
+};
+
+function count(user) {
+  let arr = Object.entries(user);
+  return arr.length;
+}
+
+console.log(count(user));*/
