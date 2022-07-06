@@ -853,3 +853,21 @@ keys = Array.from(keys);
 keys.push("more");
 console.log(keys);*/
 
+/*let salaries = {
+  John: 100,
+  Pete: 300,
+  Mary: 250,
+};
+
+function sum(obj) {
+  let arr = Object.entries(obj);
+
+  let initialValue = 0;
+  let sumWithInitial = arr.reduce(
+    (previousValue, currentValue) => previousValue + currentValue[1],
+    initialValue
+  );
+  return sumWithInitial;
+}
+
+console.log(sum(salaries));*/
