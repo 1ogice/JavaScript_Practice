@@ -883,3 +883,8 @@ function count(user) {
 }
 
 console.log(count(user));*/
+
+/*let user = { name: "John", age: 30, isAdmin: true },
+  { name, age, isAdmin = false } = user;
+
+console.log(name, age, isAdmin);*/
