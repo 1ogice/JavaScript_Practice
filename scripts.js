@@ -985,4 +985,3 @@ console.log(getSecondsToday());*/
 }
 
 console.log(getSecondsToday());*/
-
