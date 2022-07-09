@@ -985,3 +985,39 @@ console.log(getSecondsToday());*/
 }
 
 console.log(getSecondsToday());*/
+
+/*let date = new Date(2022, 6, 9, 12, 0, 0, 0),
+  sendDate = new Date(2022, 6, 9, 12, 0, 0, 0);
+
+function formatDate() {
+  let difference = (date - sendDate) / 1000;
+
+  if (difference <= 3) {
+    difference = "Только что";
+  } else if (difference <= 60) {
+    difference = `${difference} секунд назад`;
+  } else if (difference <= 60 * 60) {
+    difference = `${difference / 60} минут назад`;
+  } else {
+    let datesList = [
+      sendDate.getDate(),
+      sendDate.getMonth() + 1,
+      sendDate.getFullYear(),
+      sendDate.getHours(),
+      sendDate.getMinutes(),
+    ];
+
+    for (let i = 0; i < datesList.length; i++) {
+      if (datesList[i] < 10) {
+        datesList.splice(i, 1, `0${datesList[i]}`);
+      }
+    }
+
+    difference =
+      `${datesList[0]}.${datesList[1]}.${datesList[2]}` +
+      ` ${datesList[3]}:${datesList[4]}`;
+  }
+  return difference;
+}
+
+console.log(formatDate());*/
