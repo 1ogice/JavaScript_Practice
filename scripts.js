@@ -1051,3 +1051,56 @@ console.log(
   })
 );*/
 
+/*console.time("test1");
+function sum1(num) {
+  if (num == 1) return 1;
+
+  let res = num;
+
+  res = res + sum1(num - 1);
+
+  return res;
+}
+console.log(sum1(100));
+console.timeEnd("test1");
+
+console.time("test2");
+function sum2(num) {
+  for (let i = num - 1; i > 0; i--) {
+    num += i;
+  }
+
+  return num;
+}
+console.log(sum2(100));
+console.timeEnd("test2");
+
+console.time("test3");
+function sum3(num) {
+  num = ((1 + num) / 2) * num;
+
+  return num;
+}
+console.log(sum3(100));
+console.timeEnd("test3");*/
+
+/*function factorial(n) {
+  if (n == 1) return n;
+
+  n = n * factorial(n - 1);
+
+  return n;
+}
+
+console.log(factorial(5));*/
+
+/*console.time("test");
+function fib(n) {
+  if (n <= 1) return n;
+
+  n = fib(n - 1) + fib(n - 2);
+
+  return n;
+}
+console.timeEnd("test");
+console.log(fib(22));*/
